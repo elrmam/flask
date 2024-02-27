@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div class="container">
+        <h2>CREATE USER</h2>
+        <form method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="age" placeholder="Age" required>
+            <button type="submit">CREATE</button>
+        </form>
+    </div>
+{% endblock body %}
